@@ -1,12 +1,24 @@
+# SDD（Spec Driven Development）規格驅動開發方法論 - 入門版
 
+**Spec Driven Development（規格驅動開發）** 是一種以「規格文件（Specification）」為核心，驅動整個軟體開發流程的方法論。
 
-# SDD（Spec Driven Development）規格驅動開發方法論－新手簡易版
+與傳統的 **需求驅動開發（Requirements Driven Development, RDD）** 或 **測試驅動開發（Test Driven Development, TDD）** 不同，SDD 的核心思想如下：
 
-SDD 是一種「先規劃、再動手」的軟體開發方法。只要照著規格走，就能大幅減少踩雷、返工，讓開發更順利！
+- **先定義詳細且精準的規格**：
+  - 規格文件明確描述功能的行為、輸入/輸出、例外處理、性能要求等。
+  - 格式通常結構化（如 Markdown + 標準格式、OpenAPI、JSON Schema）。
+
+- **以規格為唯一真相來源（Single Source of Truth）**：
+  - 開發、測試、文件、AI 助手都基於相同的規格，不依賴模糊口頭溝通。
+
+- **規格與程式碼、測試自動同步**：
+  - 規格可用工具轉換成程式碼框架、測試案例、API 文件。
+
+**簡單來說：**
+
+> 在 SDD 中，「寫規格」就是「寫程式的第一步」，所有人依賴同一份明確的規格協作，減少溝通成本與返工風險。
 
 > 適合：剛入門軟體開發、想學習團隊協作流程的你。
-
-
 
 ## SDD 的三大步驟
 
